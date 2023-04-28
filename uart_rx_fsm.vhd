@@ -93,13 +93,6 @@ begin
         end if;
      end process;
   
-        -- Setting values for 3 outputs.
-      --  DOUT_VLD <= '1' when STATE_NOW = VALIDATION else '0';
 
-      --  READ_Y <= '1' when STATE_NOW = GET_BITS else '0';
-        
-       -- CLK_Y <= '0' when STATE_NOW = VALIDATION or STATE_NOW = IDLE else '1';
-
-     
 
 end architecture;
